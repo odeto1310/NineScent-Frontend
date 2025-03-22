@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Axios 인스턴스 생성
 const instance = axios.create({
-  baseURL: 'http://13.125.170.208/api', // 프록시 경로와 일치
+  baseURL: '/api', // 프록시 경로와 일치
   headers: {
     'Content-Type': 'application/json', // JSON 데이터를 처리하기 위한 기본 헤더
   },
